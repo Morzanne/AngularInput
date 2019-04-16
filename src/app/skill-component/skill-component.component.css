@@ -1,0 +1,9 @@
+.skills{
+    border: 2px solid black;
+    border-radius: 15% 15%;
+    background-color: rgb(171, 115, 223);
+}
+
+a{
+    color: black;
+}

@@ -1,0 +1,11 @@
+ul{
+    list-style-type: none;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(171, 115, 223);
+}
+
+h2{
+    text-align: center;
+}
+

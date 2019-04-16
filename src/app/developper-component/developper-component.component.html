@@ -1,0 +1,19 @@
+<div class="container">
+        <h2 class="m-5">Who am I ?</h2>
+    <div class=" identity d-flex justify-content-center">
+        <ul class="col-12 col-lg-6 d-flex flex-column ">
+            <li>{{developer.lastName}}</li>
+            <li>{{developer.firstName}}</li>
+            <li>{{developer.age}}</li>
+            <li>{{developer.bio}}</li>
+            <li>{{developer.sexe}}</li>
+        </ul>
+    </div>
+    <div class=" d-flex justify-content-around flex-column">
+            <h2>My skills</h2>
+        <app-skill-component class="skills" *ngFor="let current of developer.skills" [skill]="current">
+
+        </app-skill-component>
+    </div>
+
+</div>
